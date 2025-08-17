@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SkillConnect-AI 🚀  
 
-## Getting Started
+**SkillConnect-AI** is a modern AI-powered **learning and assessment platform** built with **Next.js**, **TypeScript**, **shadcnUI**, and **Google Gemini AI**.  
 
-First, run the development server:
+It enables users to complete courses, take **AI-driven mock interviews with coding tests**, and get assessed through **real-time screen proctoring, live transcriptions, and detailed performance reports**.  
 
-```bash
+---
+
+## ✨ Features
+
+- 📚 **Course Completion Tracking** – Structured course learning paths.  
+- 🤖 **AI Mock Interviews** – Adaptive interviews tailored to what users have already learned.  
+- 🧠 **Contextual AI (Gemini Powered)** –  
+  - Maintains **chat history** for natural, context-aware interviews.  
+  - Generates **in-depth final reports** based on performance and communication style.  
+- 💻 **Coding Tests** – Real-time coding environment with evaluation.  
+- 📹 **Screen Proctoring** – Secure evaluation with screen and activity monitoring.  
+- 🎙 **Real-time Transcriptions** – AI-powered conversation transcripts.  
+- 📊 **Comprehensive Reports** – Includes:  
+  - **Technical proficiency**  
+  - **Behavioral insights**  
+  - **Communication style & answering quality**  
+
+---
+
+## 🛠 Tech Stack
+
+- ⚡ **Next.js 14** – React framework with App Router  
+- 📝 **TypeScript** – Static typing & maintainability  
+- 🎨 **shadcnUI** – Accessible UI components  
+- 🤖 **Google Gemini AI** – Context retention, AI interview analysis & detailed reporting  
+- 🗂 **Prisma + PostgreSQL** (if used for persistence layer)  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+git clone https://github.com/01Sriharsha/SkillConnect-AI.git
+cd SkillConnect-AI
+
+### 2. Install Dependencies
+npm install
+
+or
+yarn install
+
+or
+pnpm install
+
+### 3. Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📊 Roadmap
 
-## Learn More
+- [ ] Expand **Gemini AI Interview Intelligence** – deeper contextual follow-ups.  
+- [ ] Add **multi-modal proctoring** (webcam + mic + screen).  
+- [ ] Export AI-driven **interview report as PDF** for recruiters.  
+- [ ] Add **gamification features** (leaderboards, badges).  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🙌 Acknowledgements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Built with ❤️ using:  
+- [Next.js](https://nextjs.org)  
+- [shadcnUI](https://ui.shadcn.com/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Google Gemini AI](https://deepmind.google/technologies/gemini/)  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> 🚀 **SkillConnect-AI** – Learn. Practice. Get Interview Ready with Gemini-powered intelligence!
